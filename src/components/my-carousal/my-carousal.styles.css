@@ -1,0 +1,10 @@
+.custom-img {
+  height: 100vh;
+  object-fit: cover;
+  /* opacity: 0.7; */
+}
+#sld3{
+  opacity: 0.2;
+  border: 2px solid yellow;
+  width: 30px;
+}
