@@ -12,3 +12,11 @@
   background-color: #f83f37;
   color: #ffffff;
 }
+#contct{
+  font-family: sans-serif;
+}
+#contct>h5>span{
+  font-weight: bold;
+  color: teal;
+   
+ }

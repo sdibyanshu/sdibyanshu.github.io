@@ -5,6 +5,8 @@
 .nav-theme {
   background-color:black;
   font-size: 20px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 .animate-navbar {

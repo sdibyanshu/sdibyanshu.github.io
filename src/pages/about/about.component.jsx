@@ -21,7 +21,7 @@ const About = () => {
                   <Image
                     className="profile justify-content-end"
                     alt="profile"
-                    src="https://media-exp1.licdn.com/dms/image/C4D03AQFevNDvqf5TzQ/profile-displayphoto-shrink_400_400/0/1653030351609?e=1672272000&v=beta&t=DxCflNHsZ-wBt7KP4Lymvo3z0oEMSfnrR7F1zixkTtw" 
+                    src="https://media-exp1.licdn.com/dms/image/D4D03AQEpr-Sql5nNCg/profile-displayphoto-shrink_400_400/0/1667487889993?e=1672876800&v=beta&t=6dHAbSWDl1J5AuMpt6INoq5R0TCv-qXwIgfel0wBJgQ" 
                     style={{borderRadius:"50%"}}
                     thumbnail
                     fluid

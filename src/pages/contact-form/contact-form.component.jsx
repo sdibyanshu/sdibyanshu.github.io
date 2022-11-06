@@ -23,6 +23,8 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
+
+
             <div className="m-2">
               <a
                 href="https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b/"
@@ -35,6 +37,7 @@ const ContactForm = () => {
               </a>
             </div>
 
+
             <div className="m-2">
               <a
                 href="https://github.com/sdibyanshu"
@@ -46,30 +49,12 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
-            {/* <div className="m-2">
-              <a
-                href=""
-                // Contact="+91-8299511516"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="outline-info" title="Tweets are welcomed!">
-                  <i className="fab fa-twitter"></i> Twitter
-                </Button>
-              </a>
-            </div> */}
-            {/* <div className="m-2">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="outline-primary" title="Say hello on FB">
-                  <i className="fab fa-facebook-square"></i> FaceBook
-                </Button>
-              </a>
-            </div> */}
-          </Col>
+
+          </Col> 
+            <div id="contct">
+                <h5><span>Contact me:-</span>+91-8299511516</h5>
+                <h5><span>Email me:-</span>dibyanshu4430@gmail.com</h5>
+            </div>
         </Row>
       </Jumbotron>
     </div>

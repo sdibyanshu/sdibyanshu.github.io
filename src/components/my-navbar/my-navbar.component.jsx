@@ -25,7 +25,7 @@ const MyNavbar = () => {
     setScrollPos(document.body.getBoundingClientRect().top);
     setShowNavbar(document.body.getBoundingClientRect().top > scrollPos);
   };
-  let navDisplay = showNavbar ? "active" : "hidden";
+  let navDisplay = showNavbar ? "active" : "active";
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
