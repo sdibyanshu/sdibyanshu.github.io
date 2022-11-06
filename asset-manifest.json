@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5da29eda.css",
-    "main.js": "/static/js/main.2214756b.js",
-    "static/media/Youtube.webp": "/static/media/Youtube.8466446c0a17d3696fd0.webp",
-    "static/media/nordstrome.webp": "/static/media/nordstrome.27cf9b40de979f9abb6a.webp",
-    "static/media/outlookindia.webp": "/static/media/outlookindia.720377fae230099b6afa.webp",
+    "main.css": "/static/css/main.9072214a.css",
+    "main.js": "/static/js/main.8314c578.js",
+    "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
+    "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
+    "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
     "static/media/slide3.webp": "/static/media/slide3.3925dfb587086b64dffc.webp",
-    "static/media/searchbar.webp": "/static/media/searchbar.d950d79f506f3e16cf77.webp",
-    "static/media/Bluemart.webp": "/static/media/Bluemart.0fd9b9713f7b5095c127.webp",
+    "static/media/searchbar.png": "/static/media/searchbar.d950d79f506f3e16cf77.png",
+    "static/media/Bluemart.png": "/static/media/Bluemart.0fd9b9713f7b5095c127.png",
     "static/media/Dibyanshu_Srivastav_Resume.pdf": "/static/media/Dibyanshu_Srivastav_Resume.a25e28e023d79f94143c.pdf",
     "static/media/slide1.webp": "/static/media/slide1.14619b040f52684f1d90.webp",
     "static/media/profile.webp": "/static/media/profile.d0ec78762f8101e2c893.webp",
     "static/media/background.webp": "/static/media/background.f68146215cd63c0647c5.webp",
-    "static/media/Robofriends.webp": "/static/media/Robofriends.1852c70227068328e277.webp",
     "static/media/slide2.webp": "/static/media/slide2.d58e7971f0d52b4f27b3.webp",
-    "static/media/portfolioUsingDjango.webp": "/static/media/portfolioUsingDjango.9a0557854688185b14eb.webp",
     "static/media/mssql.svg": "/static/media/mssql.18f84630d77ee59a93814e1aa3bc9770.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
@@ -29,7 +27,6 @@
     "static/media/sass-1.svg": "/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
     "static/media/css3.svg": "/static/media/css3.8fba365c2c5824342874c7a674943eb8.svg",
     "static/media/firebase.svg": "/static/media/firebase.e6583a29712875c8977afcba1d0b6883.svg",
-    "static/media/github-api.svg": "/static/media/github-api.3a5ccf39676c13b38be05e2c7737f7f0.svg",
     "static/media/heroku.svg": "/static/media/heroku.73be03b36a36dcffd909327a314c859b.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/react-router.svg": "/static/media/react-router.a87b722746890c8dcd6e20f04b6d53cd.svg",
@@ -41,13 +38,12 @@
     "index.html": "/index.html",
     "static/media/typescript.svg": "/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
-    "static/media/django.svg": "/static/media/django.0779fca292c0a723b464bcb7534f802c.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.5da29eda.css.map": "/static/css/main.5da29eda.css.map",
-    "main.2214756b.js.map": "/static/js/main.2214756b.js.map"
+    "main.9072214a.css.map": "/static/css/main.9072214a.css.map",
+    "main.8314c578.js.map": "/static/js/main.8314c578.js.map"
   },
   "entrypoints": [
-    "static/css/main.5da29eda.css",
-    "static/js/main.2214756b.js"
+    "static/css/main.9072214a.css",
+    "static/js/main.8314c578.js"
   ]
 }
