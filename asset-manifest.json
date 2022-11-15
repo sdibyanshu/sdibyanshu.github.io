@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2249b3f.css",
-    "main.js": "/static/js/main.c7f5e1f6.js",
+    "main.css": "/static/css/main.7e30a85b.css",
+    "main.js": "/static/js/main.46757d44.js",
     "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
     "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
     "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
@@ -39,11 +39,11 @@
     "static/media/typescript.svg": "/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.d2249b3f.css.map": "/static/css/main.d2249b3f.css.map",
-    "main.c7f5e1f6.js.map": "/static/js/main.c7f5e1f6.js.map"
+    "main.7e30a85b.css.map": "/static/css/main.7e30a85b.css.map",
+    "main.46757d44.js.map": "/static/js/main.46757d44.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2249b3f.css",
-    "static/js/main.c7f5e1f6.js"
+    "static/css/main.7e30a85b.css",
+    "static/js/main.46757d44.js"
   ]
 }
