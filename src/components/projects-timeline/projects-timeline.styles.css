@@ -1,33 +1,11 @@
-/* .accordian-main {
-  cursor: pointer;
-  display: inline-block;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 14px;
-  background-color: rebeccapurple;
-  border: none;
-  border-radius: 4px;
-
-  padding: 10px;
-  color: #fff;
-}
-
-.list-styles {
-  list-style-type: circle;
-}
-
-.image-style1 {
-  width: 3em;
-} */
 
 
 .project-section {
-  position: relative !important;
+  /* position: relative !important; */
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
-
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -35,6 +13,10 @@
   padding-right: 25px !important;
   height: auto !important;
 }
+
+
+
+
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgb(121,183,124) !important;
@@ -47,7 +29,7 @@
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #ad1457 !important;
+  box-shadow: 0 4px 4px 5px black !important;
 }
 
 
@@ -86,3 +68,15 @@
   padding-top: 10px !important;
 }
 
+@media all and (min-width: 320px) and (max-width: 767px) {
+  /* #stybtn{
+    margin-left: 0px;
+  } */
+  .project-card {
+    width: 96%;
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+  
+  }
+  
+}

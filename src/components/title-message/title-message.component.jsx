@@ -49,7 +49,6 @@ const TitleMessage = () => (
           <Typewriter
             options={{
               strings: [
-                "Web Developer",
                 "Tech Learning Engineer",
                 "Full Stack Developer",
                 "Open Source Contributor",

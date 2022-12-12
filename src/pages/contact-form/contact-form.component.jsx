@@ -18,7 +18,7 @@ const ContactForm = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-danger" title="akjha96@gmail.com">
+                <Button variant="outline-danger" title="dibyanshu4430@gmail.com">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>

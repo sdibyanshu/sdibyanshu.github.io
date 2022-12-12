@@ -3,16 +3,15 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./about.styles.css";
-import Profile from "../../assets/img/profile/profile.webp";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Tilt from "react-tilt";
 
 const About = () => {
   return (
-    <div>
+    <div className="abouttop">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 id="text" className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -22,7 +21,7 @@ const About = () => {
                     className="profile justify-content-end"
                     alt="profile"
                     src="https://media-exp1.licdn.com/dms/image/D4D03AQEpr-Sql5nNCg/profile-displayphoto-shrink_400_400/0/1667487889993?e=1672876800&v=beta&t=6dHAbSWDl1J5AuMpt6INoq5R0TCv-qXwIgfel0wBJgQ" 
-                    style={{borderRadius:"50%"}}
+                    style={{borderRadius:"10%"}}
                     thumbnail
                     fluid
                   />
@@ -30,14 +29,13 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
+              <Row id="abouttext"  className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Dibyanshu Srivastav</strong>
-                <br />A passionate Developer, born and brought up
-                in Gorakhpur , India. I am a Full Stack Web Developer with
-                React.js, Redux, Express.js, Node.js and
-                 as my tech stack.
+                <br />A passionate Full stack aspiring Developer, born and brought up in Gorakhpur , Uttar Pradesh. 
+                My skill in tech stack like HTML , CSS , JavaScript , React.js, Redux , Express.js , Node.js ,MongoDB .
+                 
                 <br />
-                In 2022, I am persuing "full Stack Web Devlopment course" from @masai school.
+                In 2022, I am persuing "Full Stack Web Devlopment course (full time)" from @masai school ,Bangalore .
                 <br />
                 I love learning about new technologies, what problems are
                 they solving and How can I use them to build better and scalable
