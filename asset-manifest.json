@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e7361a7.css",
-    "main.js": "/static/js/main.28b23fdf.js",
+    "main.css": "/static/css/main.2e941f02.css",
+    "main.js": "/static/js/main.05ec404e.js",
     "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
     "static/media/shoppingparadise.png": "/static/media/shoppingparadise.202c15b8f32adffa5086.png",
     "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
@@ -39,11 +39,11 @@
     "static/media/typescript.svg": "/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.4e7361a7.css.map": "/static/css/main.4e7361a7.css.map",
-    "main.28b23fdf.js.map": "/static/js/main.28b23fdf.js.map"
+    "main.2e941f02.css.map": "/static/css/main.2e941f02.css.map",
+    "main.05ec404e.js.map": "/static/js/main.05ec404e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e7361a7.css",
-    "static/js/main.28b23fdf.js"
+    "static/css/main.2e941f02.css",
+    "static/js/main.05ec404e.js"
   ]
 }
