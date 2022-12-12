@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e30a85b.css",
-    "main.js": "/static/js/main.d1e8156c.js",
+    "main.css": "/static/css/main.4e7361a7.css",
+    "main.js": "/static/js/main.28b23fdf.js",
     "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
+    "static/media/shoppingparadise.png": "/static/media/shoppingparadise.202c15b8f32adffa5086.png",
     "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
     "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
     "static/media/slide3.webp": "/static/media/slide3.3925dfb587086b64dffc.webp",
+    "static/media/slide5.webp": "/static/media/slide5.c92ddf2fae32de155a7d.webp",
     "static/media/searchbar.png": "/static/media/searchbar.d950d79f506f3e16cf77.png",
     "static/media/Bluemart.png": "/static/media/Bluemart.0fd9b9713f7b5095c127.png",
     "static/media/Dibyanshu_Srivastav_Resume.pdf": "/static/media/Dibyanshu_Srivastav_Resume.a25e28e023d79f94143c.pdf",
     "static/media/slide1.webp": "/static/media/slide1.14619b040f52684f1d90.webp",
-    "static/media/profile.webp": "/static/media/profile.d0ec78762f8101e2c893.webp",
-    "static/media/background.webp": "/static/media/background.f68146215cd63c0647c5.webp",
+    "static/media/slide4.webp": "/static/media/slide4.7c6333b13b66c501d3c8.webp",
     "static/media/slide2.webp": "/static/media/slide2.d58e7971f0d52b4f27b3.webp",
     "static/media/mssql.svg": "/static/media/mssql.18f84630d77ee59a93814e1aa3bc9770.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.d89a6eebb2b81e487ffc99f69a3f6ea4.svg",
@@ -19,7 +20,6 @@
     "static/media/postgresql.svg": "/static/media/postgresql.ae92b576b8ea41666538c0756df27969.svg",
     "static/media/express.svg": "/static/media/express.75fff9be2f3b289ba7be1f43a08f7a4c.svg",
     "static/media/styled-components.svg": "/static/media/styled-components.2e00d138caafe530a6ffdaf27badd9e0.svg",
-    "static/media/logow.webp": "/static/media/logow.fa9abebb83aab828e9e4.webp",
     "static/media/nestjs.svg": "/static/media/nestjs.cd4028c74fbd7e8f634a8c9c2571b129.svg",
     "static/media/react.svg": "/static/media/react.add74742e9e8f8827f7fa666dca760db.svg",
     "static/media/digital-ocean.svg": "/static/media/digital-ocean.744a69736c6a24a3a3debe11e39da702.svg",
@@ -39,11 +39,11 @@
     "static/media/typescript.svg": "/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.7e30a85b.css.map": "/static/css/main.7e30a85b.css.map",
-    "main.d1e8156c.js.map": "/static/js/main.d1e8156c.js.map"
+    "main.4e7361a7.css.map": "/static/css/main.4e7361a7.css.map",
+    "main.28b23fdf.js.map": "/static/js/main.28b23fdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e30a85b.css",
-    "static/js/main.d1e8156c.js"
+    "static/css/main.4e7361a7.css",
+    "static/js/main.28b23fdf.js"
   ]
 }
