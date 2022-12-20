@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2e941f02.css",
-    "main.js": "/static/js/main.05ec404e.js",
+    "main.js": "/static/js/main.144f65b5.js",
+    "static/media/wantflix.png": "/static/media/wantflix.3c310facdc23dcaaa123.png",
     "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
     "static/media/shoppingparadise.png": "/static/media/shoppingparadise.202c15b8f32adffa5086.png",
     "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
     "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
     "static/media/slide3.webp": "/static/media/slide3.3925dfb587086b64dffc.webp",
     "static/media/slide5.webp": "/static/media/slide5.c92ddf2fae32de155a7d.webp",
-    "static/media/searchbar.png": "/static/media/searchbar.d950d79f506f3e16cf77.png",
     "static/media/Bluemart.png": "/static/media/Bluemart.0fd9b9713f7b5095c127.png",
     "static/media/Dibyanshu_Srivastav_Resume.pdf": "/static/media/Dibyanshu_Srivastav_Resume.a25e28e023d79f94143c.pdf",
     "static/media/slide1.webp": "/static/media/slide1.14619b040f52684f1d90.webp",
@@ -40,10 +40,10 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "main.2e941f02.css.map": "/static/css/main.2e941f02.css.map",
-    "main.05ec404e.js.map": "/static/js/main.05ec404e.js.map"
+    "main.144f65b5.js.map": "/static/js/main.144f65b5.js.map"
   },
   "entrypoints": [
     "static/css/main.2e941f02.css",
-    "static/js/main.05ec404e.js"
+    "static/js/main.144f65b5.js"
   ]
 }
