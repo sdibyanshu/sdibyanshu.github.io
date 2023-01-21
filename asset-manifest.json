@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d9ef4e2.css",
-    "main.js": "/static/js/main.d98e0d41.js",
+    "main.css": "/static/css/main.4586d66d.css",
+    "main.js": "/static/js/main.bc448973.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/wantflix.png": "/static/media/wantflix.3c310facdc23dcaaa123.png",
     "static/media/shoppingparadise.png": "/static/media/shoppingparadise.202c15b8f32adffa5086.png",
+    "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
     "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
     "static/media/img3.jpg": "/static/media/img3.0ebaf22d944187524989.jpg",
     "static/media/Bluemart.png": "/static/media/Bluemart.0fd9b9713f7b5095c127.png",
@@ -20,12 +21,12 @@
     "static/media/html5.png": "/static/media/html5.4e6edfe05f07c383e94f.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.4d9ef4e2.css.map": "/static/css/main.4d9ef4e2.css.map",
-    "main.d98e0d41.js.map": "/static/js/main.d98e0d41.js.map",
+    "main.4586d66d.css.map": "/static/css/main.4586d66d.css.map",
+    "main.bc448973.js.map": "/static/js/main.bc448973.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d9ef4e2.css",
-    "static/js/main.d98e0d41.js"
+    "static/css/main.4586d66d.css",
+    "static/js/main.bc448973.js"
   ]
 }
