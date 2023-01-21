@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d9ef4e2.css",
-    "main.js": "/static/js/main.6693025f.js",
+    "main.js": "/static/js/main.a0ced2a3.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/wantflix.png": "/static/media/wantflix.3c310facdc23dcaaa123.png",
     "static/media/shoppingparadise.png": "/static/media/shoppingparadise.202c15b8f32adffa5086.png",
@@ -21,11 +21,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.4d9ef4e2.css.map": "/static/css/main.4d9ef4e2.css.map",
-    "main.6693025f.js.map": "/static/js/main.6693025f.js.map",
+    "main.a0ced2a3.js.map": "/static/js/main.a0ced2a3.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d9ef4e2.css",
-    "static/js/main.6693025f.js"
+    "static/js/main.a0ced2a3.js"
   ]
 }
