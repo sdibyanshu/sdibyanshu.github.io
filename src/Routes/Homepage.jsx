@@ -8,22 +8,46 @@ import Resume from '../Components/Resume'
 import Skills from '../Components/Skills'
 import './Homepage.css'
 
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+// import { particlesOptions } from './Components/Particlesoptions';
+import { particlesOptions } from '../Components/Particlesoptions';
+import Livecode from '../Components/Livecode'
+
 const Homepage = () => {
+
+    const particlesInit = async (main) => {
+        console.log(main);
+
+        await loadFull(main);
+    };
     return (
         <>
+            {/* <Particles
+                id="tsparticles"
+                init={particlesInit}
+                options={
+                    particlesOptions
+                }
+            /> */}
+
+
+
             <Navbar />
             <About />
-      
-            <Skills/>
+
+            <Skills />
             <hr />
-            <Resume/>
-            
+            <Resume />
+
             <hr />
-            <Projects/>
+            <Projects />
             <hr />
-            <Github/>
+            <Github />
+            <hr /> 
+             <Livecode/>
             <hr />
-            <ContactUs/>
+            <ContactUs />
         </>
     )
 }

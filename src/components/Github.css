@@ -52,10 +52,10 @@ margin-top: 10px;
          /* small screens */
    @media all and (min-width: 320px) and (max-width: 767px) {
      
-     /* .project-heading{
+      /* .project-heading{
          margin: auto;
-     }
-     #gitdetails{
+     } */
+      /* #gitdetails{
     
        display: flex;
        flex-direction: column;
@@ -63,18 +63,18 @@ margin-top: 10px;
        height: 150px;
        margin: auto;
        
-       }
-       #gitdetlanguage{
+       }  */
+       /* #gitdetlanguage{
       
         
          height: 150px;
          margin-top: 30px;
-        } */
-        #gitdetails{
+        }  */
+         #gitdetails{
     
             display: none;
             }
             #gitdetlanguage{
                 display: none;
-            }
+            } 
    }

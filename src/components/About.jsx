@@ -9,6 +9,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Typewriter from 'typewriter-effect';
 import pdf from '../Resources/pdf/Dibyanshu_Srivastav_Resume.pdf';
+import Livecode from './Livecode';
 
 
 
@@ -54,7 +55,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
-
+            {/* <Livecode/> */}
         </div>
 
 
@@ -262,7 +263,6 @@ const Container = styled.div`
             border-radius:10px;
             border:1px solid teal;
             background:teal;
-            
             color:white;
             display:flex;
             align-items:center;

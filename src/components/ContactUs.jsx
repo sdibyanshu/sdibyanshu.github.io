@@ -25,7 +25,7 @@ const ContactUs = () => {
     const handleSubmission = (e) => {
         e.preventDefault();
         if (data.name && data.email && data.subject && data.message) {
-            emailjs.send('service_2yxrxru', 'template_19ubugu', data, 'ygbAjDlYK-Hd1Hn7Y')
+            emailjs.send('service_gbyr2yn', 'template_2herpti', data, 'BtwrxpoJubMNRShtd')
                 .then((response) => {
                     setSubmit(true)
                 }).catch((error) => {
@@ -66,43 +66,51 @@ const ContactUs = () => {
             <div className='contact'>
                 <div className='contactText'>
                     <div>
-                        <h1 style={{ color: 'white' }}>Contact Me</h1>
+                        <h1 style={{ color: 'white' }}>CONTACT</h1>
                     </div>
                     <div className='middleSection'>
                         <div data-aos='fade-right'>
-                            <GitHubIcon fontSize="large" />
-                            <h1>Github</h1>
-                            <p>Click on Link Below</p>
+                             
+                     
                             <a href="https://github.com/sdibyanshu" rel="noreferrer" target="_blank">
-                                <p>https://github.com/sdibyanshu</p>
+                            <GitHubIcon fontSize="large" /> 
+                            {/* <p>https://github.com/sdibyanshu</p> */}
                             </a>
+                            <h1>Github</h1>
+                            <p>Click on above link ⬆</p>
                         </div>
                         <div data-aos='fade-right'>
-                            <LinkedInIcon fontSize="large" />
-                            <h1>LinkedIn</h1>
-                            <p>Here is my LinkedIn Link</p>
+                            
+                            
+                            
                             <a href="https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b/" rel="noreferrer" target="_blank">
-                                <p>https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b/</p>
+                                {/* <p>https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b/</p> */}
+                                <LinkedInIcon fontSize="large" />
                             </a>
+                            <h1>LinkedIn</h1>
+                            <p>Click on above link ⬆</p>
                         </div>
                         <div  data-aos='fade-right'>
-                            <EmailIcon fontSize="large"/>
+                        <a href='mailto:dibyanshu4430@gmail.com' rel="noreferrer" target="_blank"><EmailIcon fontSize="large"/></a>
+                            
                             <h1>Email</h1>
-                            <p>You can mail me </p>
+                            <p>You can mail me ⬇</p>
                             <a href='mailto:dibyanshu4430@gmail.com' rel="noreferrer" target="_blank"><p>dibyanshu4430@gmail.com</p></a>
                         </div>
+                        
                         <div  data-aos='fade-right'>
                             <PhoneAndroidIcon fontSize="large"/>
                             <h1>Mobile</h1>
-                            <p>You can contact me</p>
-                            <p style={{color:"black"}}>+91-8299511516</p>
+                            <p>You can contact me ⬇</p>
+                            <a href=""><p style={{color:"black"}}>+91-8299511516</p></a>
+                            
                         </div>
                     </div>
                 </div>
                 {submit && <>
                     <div className='emailSent'>
-                        <h1 style={{ color: '#01a479' }}>Email Sent Successfully.</h1>
-                        <p>Thank you <span style={{ fontWeight: 'bold' }}>{data.name}</span>, your message has been submitted to us.</p>
+                        <h1 style={{ color: 'yellow' }}>Email Sent Successfully.</h1>
+                        <p style={{color: 'yellow' }}>Thank you <span style={{ fontWeight: 'bold',color: 'yellow' }}>{data.name}</span>, your message has been submitted to us.</p>
                     </div>
                 </>}
                 <h1 style={{ color: 'white' }}>Drop Me a Message</h1>
@@ -161,12 +169,14 @@ const Container = styled.div`
     }
     .middleSection>div p{
         margin-top:0px;
-        color:black;
+        
     }
 
     .middleSection>div a{
         text-decoration:none;
-        color:teal;
+        color:black;
+        font-weight:bold;
+       
      }
 
     .contactForm>form{

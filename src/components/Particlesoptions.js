@@ -4,7 +4,7 @@ export const particlesOptions = {
         value: 60,
         density: {
           enable: true,
-          value_area: 2000,
+          value_area: 3000,
         },
       },
       color: {
@@ -17,7 +17,7 @@ export const particlesOptions = {
           color: "#000000",
         },
         polygon: {
-          nb_sides: 5,
+          nb_sides: 4,
         },
         image: {
           src: "img/github.svg",
@@ -75,7 +75,7 @@ export const particlesOptions = {
           mode: "repulse",
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: "push",
         },
         resize: true,

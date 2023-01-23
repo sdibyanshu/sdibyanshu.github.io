@@ -4,6 +4,7 @@ import outlookindia from '../Resources/Images/Project/outlookindia.png';
 import Bluemart from '../Resources/Images/Project/Bluemart.png';
 import shoppingparadise from '../Resources/Images/Project/shoppingparadise.png';
 import wantflix from "../Resources/Images/Project/wantflix.png"
+import nordstrome from "../Resources/Images/Project/nordstrome.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StreamIcon from '@mui/icons-material/Stream';
 
@@ -15,49 +16,62 @@ const Projects = () => {
             id: 1,
             title: 'Shopping Paradise',
             img: shoppingparadise,
-            desc: 'A team project was build in masai Unit-5 month November with four members. Shopping Paradise is an E-Commerce  web app . this project have functionality such as admin page for add and remove products .',
-            worked: 'This is an team project. It was completed in 5 days',
-            keyPoint2: '',
+            desc: 'Shopping paradise is an E-Commerce  website related to beauty products and it was build with four members.this project have functionality such as admin page .Login ,Sign-up ,responsiveness etc.',
+            worked: 'This was a team project. It was completed in 5 days',
+            keyPoint2: 'masai Unit-5 month November',
             keyPoint1: '',
             githubLink: 'https://github.com/heyabrar/ShoppingParadise',
             deployedLink: 'https://shopingparadise.vercel.app/',
-            tags: ['HTML', 'CSS', 'Javascript', "React", "Redux", "Chakra UI",]
+            tags: ['CSS','Javascript', "React", "Redux", "Chakra UI","Material UI"]
         },
         {
             id: 2,
             title: 'Wantflix ',
             img: wantflix,
-            desc: "A team project was build in masai Unit-6 month December with four members. Wantflix streaming service provides and award-winning series, kids, compelling dramas, groundbreaking documentaries,  entertainment, comedies, and more",
-            worked: 'A collaborative project, built in 5 days by a team of 4 developers.',
+            desc: "Wantflix streaming service is a web app provides streaming videos, entertainment and more.we used own backend data to make this web app attractive and it was inspired by apple tv+",
+            worked: 'A collaborative project was built in 5 days by a team of 4 developers .',
             keyPoint2: '',
             keyPoint1: '',
             githubLink: 'https://github.com/A-Hore/likely-laborer-9813',
             deployedLink: 'https://wantflix-shows.netlify.app/',
-            tags: ['Mongo-DB', 'Express-Js','CSS', 'Javascript', 'React', 'Chakra-ui']
+            tags: ['React','Mongo-DB', 'Express-Js','CSS', 'Javascript', 'Chakra-ui']
         },
         {
             id: 3,
             title: 'Outlookindia clone',
             img: outlookindia,
-            desc: 'A individual project is clone of news serving website was created in @masai Unit-4 month October. it was created within 4 days with functionality such as Login, Signup and Navbar ',
-            worked: 'This is an individual project completed in 5 days.',
-            keyPoint2: 'This is our first project at Masai School.',
-            keyPoint1: 'Group project',
-            githubLink: 'https://github.com/sdibyanshu/disgusted-smell-1669',
-            deployedLink: 'https://delightful-florentine-e68fea.netlify.app/',
+            desc: 'A clone of indian news and magazine serving website was created.it was build and implemented the maximum user functionality such as Login, Signup and Navbar ',
+            worked: 'This was an collaborative project completed in 5 days.',
+            keyPoint2: '',
+            keyPoint1: '',
+            githubLink: 'https://github.com/PRATEEK9425/humble-offer-6148',
+            deployedLink: 'https://subtle-gaufre-77426e.netlify.app/index.html',
             tags: ['HTML', 'CSS', 'Advance JS/ES6', 'Font-awesome']
         },
         {
             id: 4,
             title: 'India Mart/Blue Heaven Cosmetic Clone',
             img: Bluemart,
-            desc: 'A collaborative project of an E-commerse website clone  was created in month of June in masai Unit-2 with group of 5 members and completed within 4 days .',
-            worked: 'This is an individual project completed in 5 days.',
-            keyPoint1: 'local json server used',
+            desc: 'A collaborative project is a clone of E-commerse product serving website and it was created with group of 5 members and completed within 4 days .',
+            worked: 'This was my first team project.',
+            keyPoint1: '',
             keyPoint2: '',
             githubLink: 'https://github.com/Sangram150800/Unit-2_Indiamart_Project_Final',
             deployedLink: 'https://coruscating-salmiakki-76b680.netlify.app/',
             tags: ['HTML', 'CSS', 'Basic Javascript', 'Font-awesome']
+        },
+
+        {
+            id: 5,
+            title: 'Nordstrome clone',
+            img: nordstrome,
+            desc: 'A clone website of Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids.it was build with functionality such as Login, Signup ,Navbar , cartpage etc ',
+            worked: 'This was my first Individual project.',
+            keyPoint1: '',
+            keyPoint2: '',
+            githubLink: 'https://github.com/sdibyanshu/nordstrome-Project-clone',
+            deployedLink: 'https://gleeful-malabi-569b3f.netlify.app/',
+            tags: ['HTML', 'CSS', 'Javascript', 'Font-awesome']
         }
     ]
 
@@ -100,6 +114,7 @@ const Container = styled.div`
     gap:20px;
     
     
+    
     h1{
         color:white;
         text-transform:uppercase;
@@ -111,6 +126,7 @@ const Container = styled.div`
         display:flex;
         align-items:center;
         flex-direction:column;
+        
         
     }
 
@@ -125,7 +141,15 @@ const Container = styled.div`
         border-radius: 6px;
         overflow:hidden;
         // border:2px solid black;
+        // border:1px solid red;
        
+    }
+    .box:hover{
+        // background-color:#FFFDE7;
+        background-color:white;
+        // transform: scale(1.02) !important;
+        // overflow: hidden !important;
+        // box-shadow: 0 4px 4px 5px black !important;
     }
 
     .imgBox{
