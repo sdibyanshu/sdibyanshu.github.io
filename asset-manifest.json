@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4586d66d.css",
-    "main.js": "/static/js/main.87141b2c.js",
+    "main.js": "/static/js/main.ed497323.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/wantflix.png": "/static/media/wantflix.3c310facdc23dcaaa123.png",
+    "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
     "static/media/shoppingparadise.png": "/static/media/shoppingparadise.202c15b8f32adffa5086.png",
     "static/media/nordstrome.png": "/static/media/nordstrome.27cf9b40de979f9abb6a.png",
     "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
@@ -28,11 +29,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.4586d66d.css.map": "/static/css/main.4586d66d.css.map",
-    "main.87141b2c.js.map": "/static/js/main.87141b2c.js.map",
+    "main.ed497323.js.map": "/static/js/main.ed497323.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4586d66d.css",
-    "static/js/main.87141b2c.js"
+    "static/js/main.ed497323.js"
   ]
 }
