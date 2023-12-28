@@ -4,7 +4,8 @@ import outlookindia from '../Resources/Images/Project/outlookindia.png';
 import Bluemart from '../Resources/Images/Project/Bluemart.png';
 import shoppingparadise from '../Resources/Images/Project/shoppingparadise.png';
 import wantflix from "../Resources/Images/Project/wantflix.png"
-import nordstrome from "../Resources/Images/Project/nordstrome.png"
+import nordstrome from "../Resources/Images/Project/nordstrome.png";
+import Youtube from "../Resources/Images/Project/Youtube.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StreamIcon from '@mui/icons-material/Stream';
 
@@ -72,6 +73,19 @@ const Projects = () => {
             githubLink: 'https://github.com/sdibyanshu/nordstrome-Project-clone',
             deployedLink: 'https://gleeful-malabi-569b3f.netlify.app/',
             tags: ['HTML', 'CSS', 'Javascript', 'Font-awesome']
+        },
+        
+        {
+            id: 6,
+            title: 'YouTube Clone',
+            img: Youtube,
+            desc: 'A individual mini project is a clone of YouTube was build in month of August in @masai with use of API data and functionality of searching video .',
+            worked: 'This was a mini project build by me.',
+            keyPoint1: '',
+            keyPoint2: '',
+            githubLink: 'https://github.com/sdibyanshu/Youtube-Clone',
+            deployedLink: 'https://stately-croissant-a210fd.netlify.app/',
+            tags: ['HTML', 'CSS', 'API Data', 'Advance JS/ES6']
         }
     ]
 

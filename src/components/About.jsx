@@ -38,12 +38,12 @@ const About = () => {
 
 
                           
-                            <a href="https://drive.google.com/uc?export=download&id=1oNukprJ7cxCg0ARXGol4B7lS9o08zRyq">
+                            <a href="https://drive.google.com/uc?export=download&id=115LlYlEuzLpHW5dMnKGdXsuBYv4Jtuy8">
                                 <button data-aos='fade-left'>Download Resume<DownloadIcon /></button>
                             </a>
 
 
-                            <a href="https://drive.google.com/file/d/1oNukprJ7cxCg0ARXGol4B7lS9o08zRyq/view?usp=share_link" rel="noreferrer" target="_blank">
+                            <a href="https://drive.google.com/file/d/115LlYlEuzLpHW5dMnKGdXsuBYv4Jtuy8/view?usp=share_link" rel="noreferrer" target="_blank">
                                 <button data-aos='fade-left'>View Resume<VisibilityIcon /></button>
                             </a>
                         </div>
