@@ -73,8 +73,7 @@ const ContactUs = () => {
                              
                      
                             <a href="https://github.com/sdibyanshu" rel="noreferrer" target="_blank">
-                            <GitHubIcon fontSize="large" /> 
-                            {/* <p>https://github.com/sdibyanshu</p> */}
+                            <GitHubIcon fontSize="large" />
                             </a>
                             <h1>Github</h1>
                             <p>Click on above link ⬆</p>
@@ -84,7 +83,6 @@ const ContactUs = () => {
                             
                             
                             <a href="https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b/" rel="noreferrer" target="_blank">
-                                {/* <p>https://www.linkedin.com/in/dibyanshu-srivastav-290b7718b/</p> */}
                                 <LinkedInIcon fontSize="large" />
                             </a>
                             <h1>LinkedIn</h1>

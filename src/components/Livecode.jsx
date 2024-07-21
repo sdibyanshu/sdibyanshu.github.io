@@ -23,11 +23,11 @@ const Livecode = () => {
         },
         {
             img:problemsolving,
-            title:'100+ Problems solved '
+            title:'50+ Problems solved'
         },
         {
             img:softsession,
-            title:'200+ Softskill sessions '
+            title:'30+ Meeting sessions'
         }
      
        

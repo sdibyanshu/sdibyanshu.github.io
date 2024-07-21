@@ -26,7 +26,7 @@ const About = () => {
                         <h1>Hi, I'm Dibyanshu Srivastav.</h1>
                         <Typewriter
                             options={{
-                                strings: ['Tech Learning Engineer', "Full Stack Developer", "Open Source Contributor", "Team Player"],
+                                strings: ['Software Development Engineer', "Full Stack Developer", "Team Player"],
                                 autoStart: true,
                                 loop: true,
                             }}
@@ -36,7 +36,7 @@ const About = () => {
                         <p>I am a FullStack web developer. Focused on building products that will make people's lives better.I love to learn new things and I am always open to learn new technologies.</p>
                         <div id='resume'>
 
-
+                        {/* https://drive.google.com/file/d/115LlYlEuzLpHW5dMnKGdXsuBYv4Jtuy8/view?usp=sharing */}
                           
                             <a href="https://drive.google.com/uc?export=download&id=115LlYlEuzLpHW5dMnKGdXsuBYv4Jtuy8">
                                 <button data-aos='fade-left'>Download Resume<DownloadIcon /></button>

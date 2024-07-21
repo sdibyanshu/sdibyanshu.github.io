@@ -57,10 +57,10 @@ const Skills = () => {
             title:'MongoDB'
         },
         
-        {
-            img:reactredux,
-            title:'Redux'
-        },
+        // {
+        //     img:reactredux,
+        //     title:'Redux'
+        // },
         {
             img:git,
             title:'Git/Github'
