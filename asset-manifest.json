@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.776d6511.css",
-    "main.js": "/static/js/main.14721a19.js",
+    "main.js": "/static/js/main.113d4ae4.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/wantflix.png": "/static/media/wantflix.3c310facdc23dcaaa123.png",
     "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
@@ -10,7 +10,7 @@
     "static/media/outlookindia.png": "/static/media/outlookindia.720377fae230099b6afa.png",
     "static/media/img3.jpg": "/static/media/img3.34fe6023ac60dc43bceb.jpg",
     "static/media/Bluemart.png": "/static/media/Bluemart.0fd9b9713f7b5095c127.png",
-    "static/media/Dibyanshu_Srivastav_Resume.pdf": "/static/media/Dibyanshu_Srivastav_Resume.19139cb5b35881889594.pdf",
+    "static/media/Dibyanshu_Srivastav_Resume.pdf": "/static/media/Dibyanshu_Srivastav_Resume.2a5b5dfcd633ecfedc64.pdf",
     "static/media/slide1.webp": "/static/media/slide1.14619b040f52684f1d90.webp",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
@@ -29,11 +29,11 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.776d6511.css.map": "/static/css/main.776d6511.css.map",
-    "main.14721a19.js.map": "/static/js/main.14721a19.js.map",
+    "main.113d4ae4.js.map": "/static/js/main.113d4ae4.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.776d6511.css",
-    "static/js/main.14721a19.js"
+    "static/js/main.113d4ae4.js"
   ]
 }
