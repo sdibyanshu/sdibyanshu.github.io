@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.776d6511.css",
-    "main.js": "/static/js/main.113d4ae4.js",
+    "main.js": "/static/js/main.16445ec0.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/wantflix.png": "/static/media/wantflix.3c310facdc23dcaaa123.png",
     "static/media/Youtube.png": "/static/media/Youtube.8466446c0a17d3696fd0.png",
@@ -11,6 +11,7 @@
     "static/media/img3.jpg": "/static/media/img3.34fe6023ac60dc43bceb.jpg",
     "static/media/Bluemart.png": "/static/media/Bluemart.0fd9b9713f7b5095c127.png",
     "static/media/Dibyanshu_Srivastav_Resume.pdf": "/static/media/Dibyanshu_Srivastav_Resume.2a5b5dfcd633ecfedc64.pdf",
+    "static/media/graphql.png": "/static/media/graphql.cf35cb3ebe58ba07ecd0.png",
     "static/media/slide1.webp": "/static/media/slide1.14619b040f52684f1d90.webp",
     "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
@@ -24,16 +25,17 @@
     "static/media/teamwork.png": "/static/media/teamwork.422d1c43cc3a42a6cf3b.png",
     "static/media/code.png": "/static/media/code.a3406fa6b026d3bd5185.png",
     "static/media/nodejs.png": "/static/media/nodejs.b508473ad71a31ce2fae.png",
+    "static/media/shopify.png": "/static/media/shopify.3cbd37575f6fd7cfb7f6.png",
     "static/media/html5.png": "/static/media/html5.4e6edfe05f07c383e94f.png",
     "static/media/commun.png": "/static/media/commun.61be0f0a3510ce6dc128.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
     "main.776d6511.css.map": "/static/css/main.776d6511.css.map",
-    "main.113d4ae4.js.map": "/static/js/main.113d4ae4.js.map",
+    "main.16445ec0.js.map": "/static/js/main.16445ec0.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.776d6511.css",
-    "static/js/main.113d4ae4.js"
+    "static/js/main.16445ec0.js"
   ]
 }
