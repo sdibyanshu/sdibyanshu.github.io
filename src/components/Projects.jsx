@@ -24,6 +24,7 @@ const Projects = () => {
             "deployedLink": "https://www.rasoishop.com/",
             "tags": ["CSS", "Javascript", "React", "node.js", "express js"]
         },
+        
         {
             "id": 2,
             "title": "App Dashboard Management",
