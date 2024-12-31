@@ -1,5 +1,4 @@
 import './App.css';
-import ContactUs from './Components/ContactUs';
 import AllRoutes from './Routes/AllRoutes';
 
 
