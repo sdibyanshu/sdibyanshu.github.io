@@ -26,7 +26,7 @@ const About = () => {
                         <h1>Hi, I'm Dibyanshu Srivastav.</h1>
                         <Typewriter
                             options={{
-                                strings: ['Software Development Engineer', "Full Stack Developer", "Team Player"],
+                                strings: ['Software Engineer', "Full Stack Developer", "Team Player"],
                                 autoStart: true,
                                 loop: true,
                             }}

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import html from '../Resources/Images/LanguageImages/html5.png'
+import graphql from '../Resources/Images/LanguageImages/graphql.png'
+import shopify from '../Resources/Images/LanguageImages/shopify.png'
 import css from '../Resources/Images/LanguageImages/css3.png'
 import js from '../Resources/Images/LanguageImages/js.png'
 import git from '../Resources/Images/LanguageImages/git.png'
@@ -32,10 +34,10 @@ const Skills = () => {
             img:html,
             title:'HTML'
         },
-        {
-            img:css,
-            title:'CSS'
-        },
+        // {
+        //     img:css,
+        //     title:'CSS'
+        // },
         {
             img:js,
             title:'Javascript'
@@ -57,13 +59,17 @@ const Skills = () => {
             title:'MongoDB'
         },
         
-        // {
-        //     img:reactredux,
-        //     title:'Redux'
-        // },
+        {
+            img:graphql,
+            title:'Graph QL'
+        },
         {
             img:git,
             title:'Git/Github'
+        },
+        {
+            img:shopify,
+            title:'Shopify'
         },
         
     ];

@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import React, { useEffect, useState } from 'react'
-import {Link,animateScroll} from 'react-scroll';
-import { AiFillHome ,AiFillProject} from "react-icons/ai";
+import { Link, animateScroll } from 'react-scroll';
+import { AiFillHome, AiFillProject } from "react-icons/ai";
 import { FaUser } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
-  import { IoMdContact } from "react-icons/io";
-  import {   HiDocumentText } from "react-icons/hi";
+import { IoMdContact } from "react-icons/io";
+import { HiDocumentText } from "react-icons/hi";
 
 
 
@@ -14,54 +14,54 @@ const Navbar = () => {
     const [colorChange, setColorchange] = useState(false);
     const [head, setHead] = useState(false);
 
-    const changeNavbarColor = () =>{
-       if(window.scrollY >= 80 || head){
-         setColorchange(true);
-         
-       }
-       else{
-         setColorchange(false);
-       }
-       
+    const changeNavbarColor = () => {
+        if (window.scrollY >= 80 || head) {
+            setColorchange(true);
+
+        }
+        else {
+            setColorchange(false);
+        }
+
     };
     window.addEventListener('scroll', changeNavbarColor);
 
 
-    useEffect(()=>{
-        if(head || colorChange ){
+    useEffect(() => {
+        if (head || colorChange) {
             setColorchange(true)
-        }else{
+        } else {
             setColorchange(false)
         }
-    },[head,colorChange])
+    }, [head, colorChange])
     return (
         <Container>
-                <header className="header" style={{backgroundColor:`${colorChange?'black':'transparent'}`}}>
-                    <a href="/" className="logo">Dibyanshu Srivastav</a>
+            <header className="header" style={{ backgroundColor: `${colorChange ? 'black' : 'transparent'}` }}>
+                <a href="/" className="logo">Dibyanshu Srivastav</a>
 
-                    <input className="menu-btn" type="checkbox" id="menu-btn" />
+                <input className="menu-btn" type="checkbox" id="menu-btn" />
 
-                    <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
+                <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
 
-                    <ul className="menu">
+                <ul className="menu">
 
-                        <li><Link activeClass="active" to="/"  onClick={() => animateScroll.scrollToTop()} spy={true} smooth={true}> Home </Link></li>
-                        
+                    <li><Link activeClass="active" to="/" onClick={() => animateScroll.scrollToTop()} spy={true} smooth={true}> Home </Link></li>
 
-                        <li><Link activeClass="active" to="about"  onClick={() => setHead(true)} spy={true} smooth={true}> About </Link></li>
 
-                        <li><Link activeClass="active" to="skills" onClick={() => setHead(true)} spy={true} smooth={true}> Skills</Link></li>
+                    <li><Link activeClass="active" to="about" onClick={() => setHead(true)} spy={true} smooth={true}> About </Link></li>
 
-                        <li><Link activeClass="active" to="resume-sectionh" onClick={() => setHead(true)} spy={true} smooth={true}>Resume</Link></li>
+                    <li><Link activeClass="active" to="skills" onClick={() => setHead(true)} spy={true} smooth={true}> Skills</Link></li>
 
-                        <li><Link activeClass="active" to="projects" onClick={() => setHead(true)} spy={true} smooth={true}>Projects</Link></li>
+                    <li><Link activeClass="active" to="resume-sectionh" onClick={() => setHead(true)} spy={true} smooth={true}>Resume</Link></li>
 
-                        <li><Link activeClass="active" to="contact" onClick={() => setHead(true)} spy={true} smooth={true}>Contact</Link></li>
-                    </ul>
-                </header>
-         </Container>
+                    <li><Link activeClass="active" to="projects" onClick={() => setHead(true)} spy={true} smooth={true}>Projects</Link></li>
+
+                    <li><Link activeClass="active" to="contact" onClick={() => setHead(true)} spy={true} smooth={true}>Contact</Link></li>
+                </ul>
+            </header>
+        </Container>
     )
-    
+
 }
 
 const Container = styled.div`

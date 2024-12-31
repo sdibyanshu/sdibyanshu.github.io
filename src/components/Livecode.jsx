@@ -9,47 +9,43 @@ import "aos/dist/aos.css";
 
 const Livecode = () => {
     useEffect(() => {
-        Aos.init({duration:2000})
-       })
-   
+        Aos.init({ duration: 2000 })
+    })
+
     const codingskills = [
         {
-            img:code,
-            title:' 1000+ Hours of coding '
+            img: code,
+            title: 'Quality coding solution'
         },
         {
-            img:project2,
-            title:' 10+ Mini Projects build '
+            img: project2,
+            title: ' 10+ Company Projects'
         },
         {
-            img:problemsolving,
-            title:'50+ Problems solved'
+            img: problemsolving,
+            title: '50+ Problems solved'
         },
         {
-            img:softsession,
-            title:'30+ Meeting sessions'
+            img: softsession,
+            title: '30+ Meeting sessions'
         }
-     
-       
     ]
 
-    
-  
 
-  return (
-    <Container id='skills' >
-        {/* <h1>About</h1> */}
-       
-        <div className='codingskillsContainer'data-aos='fade-right'>
-            {codingskills.map((ele,index)=>(
-                <div key={index}>
-                    <img src={ele.img} alt={ele.title} width='70px' height='70px' />
-                    <p>{ele.title}</p>
-                </div>
-            ))}
-        </div>
-    </Container>
-  )
+    return (
+        <Container id='skills' >
+            {/* <h1>About</h1> */}
+
+            <div className='codingskillsContainer' data-aos='fade-right'>
+                {codingskills.map((ele, index) => (
+                    <div key={index}>
+                        <img src={ele.img} alt={ele.title} width='70px' height='70px' />
+                        <p>{ele.title}</p>
+                    </div>
+                ))}
+            </div>
+        </Container>
+    )
 }
 
 const Container = styled.div`

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import outlookindia from '../Resources/Images/Project/outlookindia.png';
+import dashboard from '../Resources/Images/Project/dashboard.png';
 import Bluemart from '../Resources/Images/Project/Bluemart.png';
-import shoppingparadise from '../Resources/Images/Project/shoppingparadise.png';
+import chatboat from '../Resources/Images/Project/chatboat.png';
 import wantflix from "../Resources/Images/Project/wantflix.png"
 import nordstrome from "../Resources/Images/Project/nordstrome.png";
 import Youtube from "../Resources/Images/Project/Youtube.png"
@@ -14,79 +14,90 @@ const Projects = () => {
 
     const projects = [
         {
-            id: 1,
-            title: 'Shopping Paradise',
-            img: shoppingparadise,
-            desc: 'Shopping paradise is an E-Commerce  website related to beauty products and it was build with four members.this project have functionality such as admin page .Login ,Sign-up ,responsiveness etc.',
-            worked: 'a team project completed in 5 days',
-            // keyPoint2: 'masai Unit-5 month November',
-            keyPoint1: '',
-            githubLink: 'https://github.com/heyabrar/ShoppingParadise',
-            deployedLink: 'https://shopingparadise.vercel.app/',
-            tags: ['CSS','Javascript', "React", "Redux", "Chakra UI","Material UI"]
+            "id": 1,
+            "title": "Rasoishop Chatboat",
+            "img": chatboat,
+            "desc": "Rasoishop Chatboat is an AI-powered chatbot designed to assist users with recipe generation and cooking-related queries. Built with a focus on user engagement, the chatbot uses server-side rendering (SSR) concepts to provide dynamic responses. Key features include responsiveness, seamless interaction, and integration with Rasoishop's recipe database.",
+            "worked": "an individual project ",
+            "keyPoint1": "",
+            "githubLink": "",
+            "deployedLink": "https://www.rasoishop.com/",
+            "tags": ["CSS", "Javascript", "React", "node.js", "express js"]
         },
         {
-            id: 2,
-            title: 'Wantflix ',
-            img: wantflix,
-            desc: "Wantflix streaming service is a web app provides streaming videos, entertainment and more.we used own backend data to make this web app attractive and it was inspired by apple tv+",
-            worked: 'A collaborative project was built in 5 days by a team of 4 developers .',
-            keyPoint2: '',
-            keyPoint1: '',
-            githubLink: 'https://github.com/A-Hore/likely-laborer-9813',
-            deployedLink: 'https://wantflix-shows.netlify.app/',
-            tags: ['React','Mongo-DB', 'Express-Js','CSS', 'Javascript', 'Chakra-ui']
-        },
-        {
-            id: 3,
-            title: 'Outlookindia clone',
-            img: outlookindia,
-            desc: 'A clone of indian news and magazine serving website was created.it was build and implemented the maximum user functionality such as Login, Signup and Navbar ',
-            worked: 'This was an collaborative project completed in 5 days.',
-            keyPoint2: '',
-            keyPoint1: '',
-            githubLink: 'https://github.com/PRATEEK9425/humble-offer-6148',
-            deployedLink: 'https://subtle-gaufre-77426e.netlify.app/index.html',
-            tags: ['HTML', 'CSS', 'Advance JS/ES6', 'Font-awesome']
-        },
-        {
-            id: 4,
-            title: 'India Mart/Blue Heaven Cosmetic Clone',
-            img: Bluemart,
-            desc: 'A collaborative project is a clone of E-commerse product serving website and it was created with group of 5 members and completed within 4 days .',
-            worked: 'This was my first team project.',
-            keyPoint1: '',
-            keyPoint2: '',
-            githubLink: 'https://github.com/Sangram150800/Unit-2_Indiamart_Project_Final',
-            deployedLink: 'https://coruscating-salmiakki-76b680.netlify.app/',
-            tags: ['HTML', 'CSS', 'Basic Javascript', 'Font-awesome']
-        },
-
-        {
-            id: 5,
-            title: 'Nordstrome clone',
-            img: nordstrome,
-            desc: 'A clone website of Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids.it was build with functionality such as Login, Signup ,Navbar , cartpage etc ',
-            worked: 'This was my first Individual project.',
-            keyPoint1: '',
-            keyPoint2: '',
-            githubLink: 'https://github.com/sdibyanshu/nordstrome-Project-clone',
-            deployedLink: 'https://gleeful-malabi-569b3f.netlify.app/',
-            tags: ['HTML', 'CSS', 'Javascript', 'Font-awesome']
-        },
-        
-        {
-            id: 6,
-            title: 'YouTube Clone',
-            img: Youtube,
-            desc: 'A individual mini project is a clone of YouTube was build in month of August in @masai with use of API data and functionality of searching video .',
-            worked: 'This was a mini project build by me.',
-            keyPoint1: '',
-            keyPoint2: '',
-            githubLink: 'https://github.com/sdibyanshu/Youtube-Clone',
-            deployedLink: 'https://stately-croissant-a210fd.netlify.app/',
-            tags: ['HTML', 'CSS', 'API Data', 'Advance JS/ES6']
+            "id": 2,
+            "title": "App Dashboard Management",
+            "img": dashboard,
+            "desc": "App Dashboard Management is a full-stack application designed for seamless user authentication and dashboard management. It provides a secure backend for user authentication and data handling, paired with a dynamic and responsive frontend for intuitive interaction .",
+            "worked": "a full-stack individual project ",
+            "githubLink": "", // Replace with actual repository link
+            "deployedLink": "https://rxr4zesn61.execute-api.ap-south-1.amazonaws.com", // Replace with actual deployed link if frontend and backend are integrated
+            "tags": ["Node.js", "Express.js", "JWT", "React", "Redux", "API Gateway", "Chakra UI"]
         }
+        
+        
+        // {
+        //     id: 2,
+        //     title: 'Wantflix ',
+        //     img: wantflix,
+        //     desc: "Wantflix streaming service is a web app provides streaming videos, entertainment and more.we used own backend data to make this web app attractive and it was inspired by apple tv+",
+        //     worked: 'A collaborative project was built in 5 days by a team of 4 developers .',
+        //     keyPoint2: '',
+        //     keyPoint1: '',
+        //     githubLink: 'https://github.com/A-Hore/likely-laborer-9813',
+        //     deployedLink: 'https://wantflix-shows.netlify.app/',
+        //     tags: ['React','Mongo-DB', 'Express-Js','CSS', 'Javascript', 'Chakra-ui']
+        // },
+        // {
+        //     id: 3,
+        //     title: 'Outlookindia clone',
+        //     img: outlookindia,
+        //     desc: 'A clone of indian news and magazine serving website was created.it was build and implemented the maximum user functionality such as Login, Signup and Navbar ',
+        //     worked: 'This was an collaborative project completed in 5 days.',
+        //     keyPoint2: '',
+        //     keyPoint1: '',
+        //     githubLink: 'https://github.com/PRATEEK9425/humble-offer-6148',
+        //     deployedLink: 'https://subtle-gaufre-77426e.netlify.app/index.html',
+        //     tags: ['HTML', 'CSS', 'Advance JS/ES6', 'Font-awesome']
+        // },
+        // {
+        //     id: 4,
+        //     title: 'India Mart/Blue Heaven Cosmetic Clone',
+        //     img: Bluemart,
+        //     desc: 'A collaborative project is a clone of E-commerse product serving website and it was created with group of 5 members and completed within 4 days .',
+        //     worked: 'This was my first team project.',
+        //     keyPoint1: '',
+        //     keyPoint2: '',
+        //     githubLink: 'https://github.com/Sangram150800/Unit-2_Indiamart_Project_Final',
+        //     deployedLink: 'https://coruscating-salmiakki-76b680.netlify.app/',
+        //     tags: ['HTML', 'CSS', 'Basic Javascript', 'Font-awesome']
+        // },
+
+        // {
+        //     id: 5,
+        //     title: 'Nordstrome clone',
+        //     img: nordstrome,
+        //     desc: 'A clone website of Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids.it was build with functionality such as Login, Signup ,Navbar , cartpage etc ',
+        //     worked: 'This was my first Individual project.',
+        //     keyPoint1: '',
+        //     keyPoint2: '',
+        //     githubLink: 'https://github.com/sdibyanshu/nordstrome-Project-clone',
+        //     deployedLink: 'https://gleeful-malabi-569b3f.netlify.app/',
+        //     tags: ['HTML', 'CSS', 'Javascript', 'Font-awesome']
+        // },
+
+        // {
+        //     id: 6,
+        //     title: 'YouTube Clone',
+        //     img: Youtube,
+        //     desc: 'A individual mini project is a clone of YouTube was build in month of August in @masai with use of API data and functionality of searching video .',
+        //     worked: 'This was a mini project build by me.',
+        //     keyPoint1: '',
+        //     keyPoint2: '',
+        //     githubLink: 'https://github.com/sdibyanshu/Youtube-Clone',
+        //     deployedLink: 'https://stately-croissant-a210fd.netlify.app/',
+        //     tags: ['HTML', 'CSS', 'API Data', 'Advance JS/ES6']
+        // }
     ]
 
     return (
